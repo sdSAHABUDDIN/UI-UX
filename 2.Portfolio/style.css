@@ -19,6 +19,53 @@ main {
   width: 100%;
 }
 
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: transparent;
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; /* Default for desktop */
+  max-width: 900px; /* Limit max width */
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.1); /* Slight transparency */
+  -webkit-backdrop-filter: blur(11px);
+          backdrop-filter: blur(11px); /* Blurred effect */
+  border: 1px solid rgb(109, 109, 97);
+}
+.navbar .container .a {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.navbar .container .sub-container {
+  display: flex;
+  gap: 2rem;
+}
+.navbar .container .sub-container .let {
+  background: #c9b08e;
+  color: black;
+}
+.navbar .container .sub-container .let p {
+  text-wrap: nowrap;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 200;
+}
+.navbar .container .sub-container .bar {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 .view-1 {
   display: flex;
   width: 100%;
@@ -632,7 +679,10 @@ main {
 
 @media (min-width: 1020px) {
   html {
-    font-size: clamp(16px, 1vw, 20px);
+    font-size: clamp(3px, 1vw, 20px);
+  }
+  .navbar .container {
+    width: 40%; /* Adjust for smaller screens */
   }
   .view-1 img {
     width: 28%;

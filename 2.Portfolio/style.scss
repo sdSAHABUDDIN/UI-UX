@@ -16,6 +16,54 @@ html{
 main {
   width: 100%;
 }
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: transparent;
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; /* Default for desktop */
+  max-width: 900px; /* Limit max width */
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.1); /* Slight transparency */
+  backdrop-filter: blur(11px); /* Blurred effect */
+  border: 1px solid rgb(109, 109, 97);
+  .a{
+    
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .sub-container {
+    display: flex;
+    gap: 2rem;
+    .let {
+      
+      background: #c9b08e;
+      color:black ;
+      p{
+        text-wrap: nowrap;
+        padding: .5rem;
+        font-size: 1rem;
+        font-weight: 200;
+      }
+      
+    }
+    .bar {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+  }
+}
+}
 .view-1 {
   display: flex;
   width: 100%;
@@ -636,7 +684,12 @@ main {
 // desktop responsive
 @media (min-width: 1020px) {
   html {
-    font-size: clamp(16px, 1vw, 20px);
+    font-size: clamp(3px, 1vw, 20px);
+  }
+  .navbar{
+    .container {
+      width: 40%; /* Adjust for smaller screens */
+  }
   }
   .view-1 {
     img {
@@ -704,10 +757,6 @@ main {
     }
 
   }
-
-  .view-7{
-
-  }
   .view-8{
     width: 100%;
     .container {
@@ -756,5 +805,4 @@ main {
       }
     }
   }
-  
 }
