@@ -451,4 +451,179 @@ main {
   height: 35px;
   background: #22201e;
   border-radius: 50%;
+}
+
+.view-9 {
+  width: 100%;
+}
+.view-9 .container {
+  padding: 0.5rem 2rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+.view-9 .container .project {
+  color: #898077;
+  font-weight: 450;
+  font-size: 1rem;
+  text-align: center;
+}
+.view-9 .container .a {
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: center;
+}
+.view-9 .container .premium {
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.view-9 .container .buttom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.view-9 .container .buttom .box {
+  padding: 0.7rem;
+  background: #c9b08e;
+}
+.view-9 .container .buttom .box .get {
+  font-weight: 300;
+  font-size: 1rem;
+  color: #0e0e0e;
+}
+
+.view-10 {
+  width: 100%;
+}
+.view-10 .container {
+  padding: 2rem 2rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+.view-10 .container .arik {
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
+}
+.view-10 .container .all-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.view-10 .container .all-logo .onebox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.view-10 .container .all-logo .onebox .ins {
+  width: 35px;
+  height: 35px;
+  background: #22201e;
+  border-radius: 50%;
+}
+
+.view-11 {
+  width: 100%;
+}
+.view-11 .container {
+  padding: 2rem 2rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+.view-11 .container .pages {
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.view-11 .container .all-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-11 .container .all-page .page {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.view-11 .container .buttom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.view-11 .container .buttom .box {
+  padding: 0.7rem;
+  background: #c9b08e;
+}
+.view-11 .container .buttom .box .get {
+  font-weight: 300;
+  font-size: 1rem;
+  color: #0e0e0e;
+}
+
+.view-12 {
+  width: 100%;
+}
+.view-12 .container {
+  padding: 2rem 2rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+.view-12 .container .made {
+  font-weight: 350;
+  font-size: 1rem;
+  text-align: center;
+}
+.view-12 .container .onebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.view-12 .container .onebox .page {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.view-12 .container .onebox .circle {
+  height: 35px;
+  width: 35px;
+  background: #22201e;
+  border-radius: 50%;
+}
+
+.view-13 {
+  width: 100%;
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+.view-13 .marquee {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #1a1919;
+  border: rgb(61, 61, 56) solid 1px;
+}
+.view-13 .marquee .text {
+  display: flex;
+  gap: 3rem;
+  padding: 1rem 2rem;
+  animation: marquee 5s linear infinite;
+}
+.view-13 .marquee .text p {
+  text-wrap: nowrap;
+  font-size: 1rem;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */

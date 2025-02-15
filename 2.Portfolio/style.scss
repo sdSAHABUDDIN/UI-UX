@@ -455,3 +455,180 @@ main {
 
   }
 }
+.view-9 {
+  width: 100%;
+  .container {
+    padding: .5rem 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    .project{
+      color: #898077;
+      font-weight: 450;
+      font-size: 1rem;
+      text-align: center;
+    }
+    .a{
+      font-weight: 300;
+      font-size: 3rem;
+      text-align: center;
+    }
+    .premium{
+      font-weight: 300;
+      font-size: 1rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .buttom{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      .box{
+        padding: 0.7rem;
+        background: #c9b08e;
+        .get{
+          font-weight: 300;
+          font-size: 1rem;
+          color: #0e0e0e;
+        }
+      }
+      
+
+    }
+  }
+}
+.view-10 {
+  width: 100%;
+  .container {
+    padding: 2rem 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    .arik{
+      font-weight: 300;
+      font-size: 2rem;
+      text-align: center;
+    }
+    .all-logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 1.5rem;
+      .onebox{
+        display: flex;
+        gap: 10px;
+        align-items:center ;
+        .ins{
+          width: 35px;
+          height: 35px;
+          background: #22201e;
+          border-radius: 50%;
+        }
+      }
+
+    }
+  }
+}
+.view-11 {
+  width: 100%;
+  .container {
+    padding: 2rem 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    .pages{
+      font-weight: 300;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .all-page{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 1rem;
+      .page{
+        font-weight: 300;
+        font-size: 0.9rem;
+      }
+      
+    }
+    .buttom{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      .box{
+        padding: 0.7rem;
+        background: #c9b08e;
+        .get{
+          font-weight: 300;
+          font-size: 1rem;
+          color: #0e0e0e;
+        }
+      }
+    }
+  }
+}
+.view-12 {
+  width: 100%;
+  .container {
+    padding: 2rem 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    .made{
+      font-weight: 350;
+      font-size: 1rem;
+      text-align: center;
+    }
+    .onebox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      .page{
+        font-weight: 300;
+        font-size: 0.9rem;
+      }
+      .circle{
+        height: 35px;
+        width: 35px;
+        background: #22201e;
+        border-radius: 50%;
+      }
+      
+    }
+  }
+}
+.view-13 {
+  width: 100%;
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+  .marquee {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #1a1919;
+    border: rgb(61, 61, 56) solid 1px;;
+    .text {
+      display: flex;
+      gap: 3rem;
+      padding: 1rem 2rem;
+      animation: marquee 5s linear infinite;
+      p {
+        text-wrap: nowrap;
+        font-size: 1rem;
+        font-weight: 300;
+        
+      }
+    }
+  }
+}
+// desktop responsive
