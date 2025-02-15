@@ -306,4 +306,91 @@ main {
   font-weight: 350;
   line-height: 1.8rem;
   font-size: 0.9rem;
+}
+
+.view-6 {
+  width: 100%;
+}
+.view-6 .container {
+  padding: 2rem 2rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 3rem;
+}
+.view-6 .container .sub-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.view-6 .container .sub-container1 .what {
+  font-weight: 300;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.view-6 .container .sub-container1 .see {
+  font-weight: 300;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.view-6 .container .sub-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.view-6 .container .sub-container2 .container {
+  background: #181716;
+  padding: 1.3rem 2rem;
+  border: rgb(61, 61, 56) solid 1px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-6 .container .sub-container2 .container .logo {
+  background: #22201e;
+  border: rgb(61, 61, 56) solid 1px;
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  width: 4rem;
+}
+.view-6 .container .sub-container2 .container .logo .hour {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.view-6 .container .sub-container2 .container .content .amazing {
+  font-weight: 350;
+  font-size: 1.2rem;
+}
+.view-6 .container .sub-container2 .container .arik {
+  font-weight: 350;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+.view-6 .container .sub-container2 .container .man {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 90%;
+  gap: 1.5rem;
+}
+.view-6 .container .sub-container2 .container .man .img-man {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.view-6 .container .sub-container2 .container .man .name-box {
+  font-weight: 350;
+  font-size: 0.9rem;
+}
+.view-6 .container .sub-container2 .container .man .name-box .company {
+  font-weight: 400;
+  color: #898077;
 }/*# sourceMappingURL=style.css.map */
