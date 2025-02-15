@@ -146,4 +146,86 @@ main {
 .view-3 .vw-container .container #about .about {
   font-size: 0.8rem;
   font-weight: 500;
+}
+
+.view-4 {
+  width: 100%;
+}
+.view-4 .Container {
+  padding: 2rem 2rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 26px;
+}
+.view-4 .Container .sub-container1 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.view-4 .Container .sub-container1 .p1 {
+  font-size: 2rem;
+  font-weight: 350;
+}
+.view-4 .Container .sub-container1 .child-sub {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.view-4 .Container .sub-container1 .child-sub .p2 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.view-4 .Container .sub-container1 .child-sub .circle1 {
+  height: 35px;
+  width: 35px;
+  background: #22201e;
+  border-radius: 50%;
+}
+.view-4 .Container .sub-container2 {
+  display: grid;
+  grid-template-areas: "a" "b" "c" "d"; /* Corrected structure */
+  gap: 20px;
+}
+.view-4 .Container .sub-container2 .sub {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.view-4 .Container .sub-container2 .sub .grid-a img,
+.view-4 .Container .sub-container2 .sub .grid-b img,
+.view-4 .Container .sub-container2 .sub .grid-c img,
+.view-4 .Container .sub-container2 .sub .grid-d img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.view-4 .Container .sub-container2 .sub .flying {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0; /* Aligns perfectly at the bottom of the grid */
+  width: 90%;
+  height: 10%;
+  background: rgba(255, 255, 255, 0.1); /* Slight transparency */
+  -webkit-backdrop-filter: blur(11px);
+          backdrop-filter: blur(11px);
+  transform: translateY(-50%);
+  border: rgb(45, 45, 43) solid 1px;
+}
+.view-4 .Container .sub-container2 .sub .flying .flying-p1 {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.view-4 .Container .sub-container2 .sub .flying .flying-p2 {
+  padding-right: 1.2rem;
+  font-size: 0.7rem;
+  letter-spacing: 1;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
