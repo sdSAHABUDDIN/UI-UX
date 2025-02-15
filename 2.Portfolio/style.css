@@ -46,4 +46,56 @@ main {
 }
 .view-1 p br {
   display: none;
+}
+
+.view-2 {
+  width: 100%;
+  padding: 4rem 3rem;
+  display: flex;
+  justify-content: center;
+}
+.view-2 .marquee {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #353333;
+}
+.view-2 .marquee::after {
+  content: "";
+  height: 100%;
+  width: 50%;
+  background-image: linear-gradient(to right, #0e0e0e, transparent);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.view-2 .marquee::before {
+  content: "";
+  height: 100%;
+  width: 50%;
+  background-image: linear-gradient(to left, #0e0e0e, transparent);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.view-2 .marquee .text {
+  display: flex;
+  gap: 2rem;
+  padding: 0 2rem;
+  animation: marquee 5s linear infinite;
+}
+.view-2 .marquee .text p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }/*# sourceMappingURL=style.css.map */
