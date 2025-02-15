@@ -228,4 +228,82 @@ main {
   font-size: 0.7rem;
   letter-spacing: 1;
   font-weight: 500;
+}
+
+.view-5 {
+  width: 100%;
+}
+.view-5 .container {
+  padding: 2rem 2rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 26px;
+}
+.view-5 .container .sub-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.view-5 .container .sub-container1 .the {
+  font-weight: 550;
+  font-size: 0.9rem;
+}
+.view-5 .container .sub-container1 .your {
+  font-weight: 300;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.view-5 .container .sub-container1 .our {
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.view-5 .container .sub-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.view-5 .container .sub-container2 .container {
+  background: #181716;
+  padding: 1.3rem 2rem;
+  border: rgb(61, 61, 56) solid 1px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 24px;
+}
+.view-5 .container .sub-container2 .container .hours {
+  background: #22201e;
+  border: rgb(61, 61, 56) solid 1px;
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  width: 4rem;
+}
+.view-5 .container .sub-container2 .container .hours .hour {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.view-5 .container .sub-container2 .container .Do-content .do {
+  font-weight: 500;
+  color: #898077;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.view-5 .container .sub-container2 .container .Do-content .dis {
+  font-weight: 350;
+  font-size: 1.2rem;
+}
+.view-5 .container .sub-container2 .container .Before {
+  font-weight: 350;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+.view-5 .container .sub-container2 .container .list {
+  font-weight: 350;
+  line-height: 1.8rem;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=style.css.map */
