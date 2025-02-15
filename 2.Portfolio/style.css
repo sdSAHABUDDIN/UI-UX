@@ -98,4 +98,52 @@ main {
   100% {
     transform: translateX(-100%);
   }
+}
+.view-3 {
+  padding: 1rem 2rem;
+  width: 100%;
+}
+.view-3 .vw-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.view-3 .vw-container .container {
+  background: #181716;
+  padding: 1.3rem 2rem;
+  border: rgb(61, 61, 56) solid 1px;
+}
+.view-3 .vw-container .container .box {
+  display: flex;
+  line-height: 1.7;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.view-3 .vw-container .container .box .first-div {
+  padding-bottom: 6px;
+}
+.view-3 .vw-container .container .box .title {
+  font-size: 1.3rem;
+  font-weight: 320;
+}
+.view-3 .vw-container .container .box .description {
+  font-size: 0.9rem;
+  font-weight: 390;
+}
+.view-3 .vw-container .container #about {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  gap: 10px;
+}
+.view-3 .vw-container .container #about .circle {
+  width: 35px;
+  height: 35px;
+  background: #22201e;
+  border-radius: 50%;
+}
+.view-3 .vw-container .container #about .about {
+  font-size: 0.8rem;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
