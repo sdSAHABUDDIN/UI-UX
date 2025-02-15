@@ -393,4 +393,62 @@ main {
 .view-6 .container .sub-container2 .container .man .name-box .company {
   font-weight: 400;
   color: #898077;
+}
+
+.view-7 {
+  width: 100%;
+}
+.view-7 .container {
+  padding: 2rem 2rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 26px;
+}
+.view-7 .container .arik {
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
+}
+.view-7 .container .img-div {
+  display: flex;
+  justify-content: center;
+}
+.view-7 .container .img-div img {
+  width: 35%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.view-8 {
+  width: 100%;
+}
+.view-8 .container {
+  padding: 0.5rem 2rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+.view-8 .container .a {
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: center;
+}
+.view-8 .container .hi {
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+}
+.view-8 .container .logo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 3px;
+}
+.view-8 .container .logo .tw {
+  width: 35px;
+  height: 35px;
+  background: #22201e;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */

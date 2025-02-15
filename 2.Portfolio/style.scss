@@ -397,3 +397,61 @@ main {
     }
   }
 }
+.view-7 {
+  width: 100%;
+  .container {
+    padding: 2rem 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 26px;
+    .arik{
+      font-weight: 300;
+      font-size: 2rem;
+      text-align: center;
+    
+    }
+    .img-div{
+      display: flex;
+      justify-content: center;
+      img{
+        width: 35%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+.view-8 {
+  width: 100%;
+  .container {
+    padding: .5rem 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    .a{
+      font-weight: 300;
+      font-size: 2rem;
+      text-align: center;
+    }
+    .hi{
+      font-weight: 300;
+      font-size: 1rem;
+      text-align: center;
+    }
+    .logo{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      gap: 3px;
+      .tw{
+         width: 35px;
+          height: 35px;
+          background: #22201e;
+          border-radius: 50%;
+      }
+      
+    }
+
+  }
+}
