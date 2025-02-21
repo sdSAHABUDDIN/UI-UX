@@ -125,6 +125,7 @@ main{
 
       }
     }
+    
   }
 }
 .view3{
@@ -382,3 +383,98 @@ main{
     }
   }
 }
+.view8{
+  width: 100%;
+  .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .sub-container1{
+      padding: 1rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .sub-container2{
+      .price{
+
+      }
+    }
+    .sub-container3{
+      display: flex;
+      flex-direction: column;
+      .box{
+        display: flex;
+        gap: 2rem;
+        .circle{
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background-color: rgb(57, 96, 96);
+        }
+      }
+    }
+  }
+}
+.view9{
+  width: 100%;
+  .container{
+    width: 100%;
+    background-color:rgb(52 63 82) ;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+    .influx{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      div{
+        font-size: 1.3rem;
+      }
+    }
+    .GetTouch{
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      div{
+        font-size: 1.3rem;
+      }
+    }
+    .Learn{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      div{
+        font-size: 1.3rem;
+      }
+    }
+    .our{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      .new{
+        font-size: 1.3rem;
+      }
+      .box{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        
+        div{
+          border: 1px solid seashell;
+          padding: 1rem;
+          width: 70%;
+        }
+      }
+      
+    }
+  }
+}
+
+//rgb(52 63 82)
