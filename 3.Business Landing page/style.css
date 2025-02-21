@@ -162,4 +162,64 @@ main {
   height: 20px;
   border-radius: 50%;
   background: #a8a0a0;
+}
+
+.view4 {
+  width: 100%;
+  background: rgb(239, 240, 241);
+}
+.view4 .container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  gap: 2rem;
+}
+.view4 .container .sub-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.view4 .container .sub-container1 .happay {
+  color: rgb(118, 117, 117);
+}
+.view4 .container .sub-container1 .do {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.view4 .container .sub-container1 .do .custom {
+  color: rgb(96, 93, 186);
+}
+.view4 .container .sub-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view4 .container .sub-container2 .review {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: 10px;
+  line-height: 1.5rem;
+  color: rgb(118, 117, 117);
+  background-color: rgb(255, 255, 255);
+}
+.view4 .container .sub-container2 .review .box {
+  display: flex;
+  gap: 1rem;
+}
+.view4 .container .sub-container2 .review .box .img-box {
+  width: 60px;
+  width: 60px;
+}
+.view4 .container .sub-container2 .review .box .img-box img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+}
+.view4 .container .sub-container2 .review .box .cor {
+  color: black;
 }/*# sourceMappingURL=style.css.map */

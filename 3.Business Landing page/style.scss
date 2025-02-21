@@ -169,3 +169,63 @@ main{
   }
 
 }
+.view4{
+  width: 100%;
+  background: rgb(239, 240, 241);
+  .container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    gap: 2rem;
+    .sub-container1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      .happay{
+        color:rgb(118, 117, 117) ;
+      }
+      .do{
+        margin-top: 1rem;
+        font-size: 2rem;
+        .custom{
+          color: rgb(96, 93, 186);
+        }
+      }
+    }
+    .sub-container2{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      .review{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2rem;
+        border-radius: 10px;
+        line-height: 1.5rem;
+        color:rgb(118, 117, 117) ; ;
+        background-color: rgb(255 255 255);
+        .box{
+          display: flex;
+          gap: 1rem;
+          .img-box{
+            width: 60px;
+            width: 60px; 
+            img{
+              width: 100%;
+              object-fit: contain;
+              border-radius: 50%;
+            }
+            
+          }
+          .cor{
+            color: black;
+          }
+
+        }
+      }
+    }
+  }
+}
