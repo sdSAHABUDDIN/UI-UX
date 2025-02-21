@@ -50,7 +50,10 @@ main{
           line-height: 3ch;
         }
         .button{
+          display: flex;
+          justify-content: center;
           align-items: center;
+          font-size: large;
           background:rgb(124 173 232) ;
           color: white;
           width: 50%;
@@ -58,6 +61,68 @@ main{
           border-radius: 10px;
 
         }
+      }
+    }
+  }
+}
+.view2{
+  width: 100%;
+  background: rgb(239, 240, 241);
+  .container{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .sub-container1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      .why{
+        color: rgb(87, 86, 86);
+
+      }
+      .here{
+        font-size: 2rem;
+        font-weight: 500;
+        word-spacing: -2px;
+        text-align: center;
+        .rea{
+          color:rgb(124 173 232) ; ;
+        }
+      }
+    }
+    .sub-container2{
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      .content{
+        display: flex;
+        gap: 1rem 1rem;
+        background-color: rgb(255 255 255);
+        padding: 1rem;
+        .child1{
+          font-size: 3rem;
+          font-weight: 500;
+          color:rgb(124 173 232) ;
+        }
+        .child2{
+          display: flex;
+          flex-direction: column;
+          gap: .7rem;
+          .collect{
+            
+            font-size:1.2rem ;
+            font-weight: 500;
+          }
+          .turn{
+            color:rgb(118, 117, 117) ;
+            line-height: 1.5rem;
+          }
+
+        }
+
       }
     }
   }

@@ -56,10 +56,72 @@ main {
   line-height: 3ch;
 }
 .view1 .container .sub-container2 .box .button {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  font-size: large;
   background: rgb(124, 173, 232);
   color: white;
   width: 50%;
   padding: 1rem;
   border-radius: 10px;
+}
+
+.view2 {
+  width: 100%;
+  background: rgb(239, 240, 241);
+}
+.view2 .container {
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view2 .container .sub-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.view2 .container .sub-container1 .why {
+  color: rgb(87, 86, 86);
+}
+.view2 .container .sub-container1 .here {
+  font-size: 2rem;
+  font-weight: 500;
+  word-spacing: -2px;
+  text-align: center;
+}
+.view2 .container .sub-container1 .here .rea {
+  color: rgb(124, 173, 232);
+}
+.view2 .container .sub-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.view2 .container .sub-container2 .content {
+  display: flex;
+  gap: 1rem 1rem;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+}
+.view2 .container .sub-container2 .content .child1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: rgb(124, 173, 232);
+}
+.view2 .container .sub-container2 .content .child2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.view2 .container .sub-container2 .content .child2 .collect {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.view2 .container .sub-container2 .content .child2 .turn {
+  color: rgb(118, 117, 117);
+  line-height: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
