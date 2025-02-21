@@ -284,4 +284,95 @@ main {
 .view5 .container .sub-container2 .content .sim {
   color: rgb(118, 117, 117);
   line-height: 1.5rem;
+}
+
+.view6 {
+  width: 100%;
+}
+.view6 .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+.view6 .container .sub-container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view6 .container .sub-container1 .we {
+  font-size: 1.8rem;
+}
+.view6 .container .sub-container1 .we .perfect {
+  color: rgb(96, 93, 186);
+}
+.view6 .container .sub-container1 .our {
+  line-height: 1.6rem;
+  color: rgb(118, 117, 117);
+}
+.view6 .container .sub-container1 .cus {
+  color: rgb(118, 117, 117);
+}
+.view6 .container .sub-container1 .satisfaction {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.view6 .container .sub-container1 .satisfaction .per {
+  font-size: 2rem;
+}
+.view6 .container .sub-container1 .visitor {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.view6 .container .sub-container1 .visitor .x {
+  font-size: 2rem;
+}
+.view6 .container .sub-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view6 .container .sub-container2 img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.view6 .container .sub-container2 .box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view6 .container .sub-container2 .box img {
+  border-radius: 10px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.view7 {
+  width: 100%;
+}
+.view7 .container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+.view7 .container .what {
+  color: rgb(118, 117, 117);
+}
+.view7 .container .we {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.view7 .container .content .creat {
+  font-size: 1.2rem;
+}
+.view7 .container .content .approach {
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  color: rgb(118, 117, 117);
 }/*# sourceMappingURL=style.css.map */

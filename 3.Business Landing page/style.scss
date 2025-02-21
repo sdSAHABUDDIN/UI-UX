@@ -289,3 +289,96 @@ main{
     }
   }
 }
+.view6{
+  width: 100%;
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    .sub-container1{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      .we{
+        font-size: 1.8rem;
+        .perfect{
+          color: rgb(96, 93, 186);
+        }
+      }
+      .our{
+        line-height: 1.6rem;
+        color:rgb(118, 117, 117) ;
+      }
+      .cus{
+        color:rgb(118, 117, 117) ;
+      }
+      .satisfaction{
+        display: flex;
+        flex-direction: column;
+        gap: .6rem;
+        .per{
+          font-size: 2rem;
+        }
+      }
+      .visitor{
+        display: flex;
+        flex-direction: column;
+        gap: .6rem;
+        .x{
+          font-size: 2rem;
+        }
+      }
+    }
+    .sub-container2{
+      img{
+        width: 100%;
+        object-fit: contain;
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      .box{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        img{
+          border-radius: 10px;
+          width: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+    
+  }
+}
+.view7{
+  width: 100%;
+  .container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    .what{
+      color:rgb(118, 117, 117) ;
+    }
+    .we{
+      font-size: 2rem;
+      font-weight: 400;
+    }
+    .content{
+      
+      .creat{
+       
+        font-size: 1.2rem;
+      }
+      .approach{
+        margin-top: 1rem;
+        line-height: 1.5rem;
+        color:rgb(118, 117, 117) ;
+      }
+    }
+  }
+}
