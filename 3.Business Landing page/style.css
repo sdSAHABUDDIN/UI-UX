@@ -124,4 +124,42 @@ main {
 .view2 .container .sub-container2 .content .child2 .turn {
   color: rgb(118, 117, 117);
   line-height: 1.5rem;
+}
+
+.view3 {
+  width: 100%;
+  background: rgb(239, 240, 241);
+}
+.view3 .container {
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view3 .container .sub-container1 img {
+  border-radius: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+.view3 .container .sub-container2 .collect {
+  font-size: 1.5rem;
+}
+.view3 .container .sub-container2 .brain {
+  margin-top: 1.3rem;
+  color: rgb(118, 117, 117);
+  line-height: 1.5rem;
+  word-spacing: 0.5rem;
+}
+.view3 .container .sub-container2 .list {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  color: rgb(118, 117, 117);
+}
+.view3 .container .sub-container2 .list .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #a8a0a0;
 }/*# sourceMappingURL=style.css.map */

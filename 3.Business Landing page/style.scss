@@ -127,3 +127,45 @@ main{
     }
   }
 }
+.view3{
+  width: 100%;
+  background: rgb(239, 240, 241);
+  .container{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .sub-container1{
+      img{
+        border-radius: 10px;
+        object-fit: contain;
+        width: 100%;
+      }
+    }
+    .sub-container2{
+      .collect{
+        font-size: 1.5rem;
+
+      }
+      .brain{
+        margin-top: 1.3rem;
+        color:rgb(118, 117, 117) ;
+        line-height: 1.5rem;
+        word-spacing: .5rem;
+      }
+      .list{
+        margin-top: .5rem;
+        display: flex;
+        gap: 1rem;
+        color:rgb(118, 117, 117) ;
+        .circle{
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background: #a8a0a0;
+        }
+      }
+    }
+  }
+
+}
